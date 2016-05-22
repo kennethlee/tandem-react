@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Test = (props) =>
-  <h1>{props.greeting}</h1>;
+import Gallery from './components/Gallery';
 
-ReactDOM.render(<Test greeting="HELLLOO" />, document.querySelector('#gallery'));
+ReactDOM.render(
+  <Gallery />,
+  document.querySelector('#gallery')
+);
